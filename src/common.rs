@@ -1004,7 +1004,7 @@ fn get_api_server_(api: String, custom: String) -> String {
             return format!("http://{}", s);
         }
     }
-    "http://rustdeskhk.tovpower.dpdns.org:21114".to_owned()
+    "https://rustdeskhk.tovpower.dpdns.org".to_owned()
 }
 
 #[inline]
